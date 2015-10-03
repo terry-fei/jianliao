@@ -4,7 +4,7 @@
   "description": "Jianliao robot sdk",
   "main": "lib/jianliao.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test/jianliao.test.js"
   },
   "author": "feit",
   "license": "MIT",
