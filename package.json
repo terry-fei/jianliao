@@ -1,10 +1,14 @@
 {
   "name": "jianliao",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Jianliao robot sdk",
   "main": "lib/jianliao.js",
   "scripts": {
     "test": "node ./test/jianliao.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feit/jianliao.git"
   },
   "author": "feit",
   "license": "MIT",
