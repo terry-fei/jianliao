@@ -1,7 +1,7 @@
 {
   "name": "jianliao",
-  "version": "0.3.0",
-  "description": "Jianliao robot sdk",
+  "version": "0.3.1",
+  "description": "Jianliao message sdk",
   "main": "index.js",
   "scripts": {
     "test": "node ./test/jianliao.test.js"
