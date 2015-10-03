@@ -4,7 +4,7 @@ Jianliao robot sdk
 ## Usage
 ```js
 var jianliao = require('jianliao');
-var robot = jianliao('https://your.webhook.url');
+var messenger = jianliao('https://your.webhook.url');
 
 var message = {
   "content": "Hello",                             // 消息正文
@@ -18,7 +18,7 @@ var message = {
 };
 
 // callback is optional
-robot.send(message, function (err, result, response) {});
+messenger.send(message, function (err, result, response) {});
 ```
 
 ## License
