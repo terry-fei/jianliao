@@ -17,6 +17,7 @@ var message = {
   "thumbnailPicUrl": "http://your.image.url"      // 消息中可添加一张预览图片
 };
 
+// callback is optional
 robot.send(message, function (err, result, response) {});
 ```
 
